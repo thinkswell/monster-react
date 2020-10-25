@@ -1,0 +1,13 @@
+.card-list {
+  margin: 0 auto;
+  width: 85vw;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 350px;
+  gap: 0.3rem;
+}
+
+.card-list:hover .card:not(:hover) {
+  transform: scale(0.9);
+}
